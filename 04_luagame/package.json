@@ -1,0 +1,23 @@
+{
+  "name": "lua-text-game",
+  "version": "1.0.0",
+  "description": "基于Lua的文字对话游戏，使用Node.js服务器渲染",
+  "main": "game_server.js",
+  "scripts": {
+    "start": "node game_server.js",
+    "test": "lua game.lua",
+    "dev": "nodemon game_server.js"
+  },
+  "keywords": [
+    "lua",
+    "game",
+    "text-adventure",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
